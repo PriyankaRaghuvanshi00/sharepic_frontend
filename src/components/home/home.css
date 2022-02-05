@@ -1,0 +1,140 @@
+:root {
+   --card_width: 250px;
+   --row_increment: 10px;
+   --card_border_radius: 16px;
+   --card_small: 26;
+   --card_med: 33;
+   --card_large: 45;
+}
+
+.home {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+}
+
+.sidebar {
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   flex: 1.8;
+}
+
+.body {
+   flex: 8.4;
+   height: 100vh;
+   overflow-y: hidden;
+   overflow-x: hidden;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   align-items: center;
+}
+
+.usertab {
+   cursor: pointer;
+   margin: 8px;
+   border-radius: 30px;
+   display: flex;
+   align-items: center;
+   box-shadow: 1px 1px 4px 4px rgba(194, 191, 191, 0.616);
+}
+
+.usertab:hover {
+   transform: scale(1.02);
+}
+
+.useravatar {
+   background-size: 100% 100%;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.usertab h2 {
+   font-size: 15px;
+   font-weight: 500;
+   color: black;
+}
+
+.searchengine {
+   width: 50%;
+   display: flex;
+   align-items: center;
+   border-radius: 20px;
+   padding: 2px 10px;
+   background-color: rgba(173, 173, 173, 0.521);
+}
+
+.searchengine-input {
+   width: 100%;
+   background-color: transparent;
+   height: 5vh;
+}
+
+.nav {
+   display: flex;
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 10px;
+}
+
+.avatar {
+   cursor: pointer;
+   font-size: 40px !important;
+}
+
+.dropdown {
+   z-index: 200;
+   position: absolute;
+   top: 50px;
+   border-radius: 20px;
+   /* padding: 10px; */
+   background-color: white;
+   right: 5vw;
+}
+
+.dropdown-field {
+   padding: 2px 10px;
+   cursor: pointer;
+   height: 40px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.dropdown-field:hover {
+   border-radius: 50px;
+   transform: scale(1.03);
+   background-color: rgba(245, 68, 4, 0.514);
+}
+
+.dropdown-field h3 {
+   font-size: 17px;
+}
+
+.icon {
+   font-size: 20px !important;
+}
+
+.feed-images {
+   overflow-y: scroll;
+   display: flex;
+   padding: 10px;
+   flex-wrap: wrap;
+}
+
+.feed-images::-webkit-scrollbar {
+   display: none
+}
+
+.pin_container, .mypin_container {
+   -moz-column-width: 18em;
+   -webkit-column-width: 13em;
+   -moz-column-gap: 0, 2em;
+   -webkit-column-gap: 1em;
+}

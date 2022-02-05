@@ -1,0 +1,76 @@
+.upload {
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: flex;
+   width: 100vw;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.459);
+}
+
+.upload-div h2 {
+   font-size: 25px;
+   color: black;
+   padding: 10px;
+}
+
+.upload-div {
+   border-radius: 50px;
+   background-color: white;
+   padding: 20px;
+   width: fit-content;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+   transform: scaleX(0px);
+   justify-content: space-between;
+   animation: transit 7 00ms ease-in-out forwards;
+}
+
+.icon {
+   cursor: pointer;
+}
+
+.icon:hover {
+   color: rgb(0, 174, 255);
+   transform: scale(1.1);
+}
+
+@keyframes transit {
+   0% {
+      transform: translateY(-1000px);
+   }
+
+   80% {
+      transform: translateY(-20px);
+   }
+
+   100% {
+      transform: translateY(10px);
+   }
+}
+
+.label-display {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.label-display p {
+   background-color: rgb(214, 214, 214);
+   margin: 4px 10px;
+   padding: 4px 10px;
+   border-radius: 50px;
+}
+
+.label-input {
+   display: flex;
+   height: fit-content;
+   border-radius: 5px;
+   padding: 0px 10px;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(214, 214, 214);
+}

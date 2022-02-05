@@ -1,0 +1,201 @@
+.login {
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   width: 100vw;
+
+   background: linear-gradient(#00000063 100%, rgba(220, 20, 60, 0.548) 100%), url('https://www.gannett-cdn.com/presto/2021/10/15/PWTR/bccb4a1c-e697-4b4c-9952-08d40f68ccf2-Social_media_detox_challenge1.jpg');
+   /* background: linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.24), ); */
+}
+
+.login-div {
+   height: fit-content;
+   width: 26%;
+   border-radius: 50px;
+   background-color: white;
+   margin: 10px;
+   position: relative;
+   top: 15vh;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+input {
+   padding: 4px 10px;
+   border-radius: 5px;
+   outline: none;
+   height: 20px;
+   border: none;
+   background-color: rgb(214, 214, 214);
+}
+
+input:focus {
+   outline: none;
+}
+
+label {
+   font-weight: 600;
+   font-size: 19px;
+   color: rgb(0, 0, 0);
+   letter-spacing: 0.3px;
+   padding: 5px;
+   margin: 4px;
+}
+
+button {
+   border: none;
+   width: 50%;
+   height: max-content;
+   border-radius: 20px;
+   padding: 5px 10px;
+   color: black;
+   font-size: 15px;
+   font-weight: 600;
+   cursor: pointer;
+   position: relative;
+   left: 20%;
+}
+
+button:hover {
+   transform: scale(1.02);
+}
+
+.field {
+   width: 90%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin: 5px;
+}
+
+.switch {
+   font-size: 17px;
+   color: black;
+   position: relative;
+   left: 14%;
+   padding: 10px;
+   cursor: pointer;
+}
+
+.switch:hover {
+   transform: scale(1.02);
+}
+
+.msg {
+   letter-spacing: 0.5px;
+   font-weight: 600;
+   position: relative;
+   left: 20%;
+   font-size: 16px;
+   padding: 10px;
+   color: crimson;
+}
+
+@media screen and (max-width:760px) {
+   .login {
+      height: 100vh;
+      width: 100vw;
+   }
+
+   .login-div {
+      height: fit-content;
+      width: fit-content;
+      border-radius: 20px;
+      background-color: white;
+      margin: 5px;
+      top: 15vh;
+      padding: 20px;
+   }
+
+   input {
+      padding: 4px 5px;
+   }
+
+   label {
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      padding: 3px;
+      margin: 2px;
+   }
+
+   button {
+      width: max-content;
+      padding: 5px 14px;
+      font-size: 14px;
+      left: 40%;
+   }
+
+   .field {
+      width: 96%;
+      margin: 5px;
+   }
+
+   .switch {
+      font-size: 13px;
+      left: 20%;
+      font-weight: 600;
+   }
+
+   .msg {
+      left: 30%;
+      font-size: 15px;
+   }
+}
+
+@media screen and (max-width:1200px) and (min-width:760px) {
+   .login {
+      height: 100vh;
+      width: 100vw;
+   }
+
+   .login-div {
+      height: fit-content;
+      width: fit-content;
+      border-radius: 20px;
+      background-color: white;
+      margin: 5px;
+      top: 15vh;
+      padding: 20px;
+   }
+
+   input {
+      padding: 4px 5px;
+   }
+
+   label {
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      padding: 3px;
+      margin: 2px;
+   }
+
+   button {
+      width: max-content;
+      padding: 5px 14px;
+      font-size: 14px;
+      left: 40%;
+   }
+
+   .field {
+      width: 96%;
+      margin: 5px;
+   }
+
+   .switch {
+      font-size: 13px;
+      left: 20%;
+      font-weight: 600;
+   }
+
+   .msg {
+      left: 30%;
+      font-size: 15px;
+   }
+}

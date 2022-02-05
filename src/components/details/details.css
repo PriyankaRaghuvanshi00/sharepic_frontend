@@ -1,0 +1,136 @@
+.details {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+}
+
+.details-body {
+   width: 90%;
+   padding: 10px;
+   margin: 10px;
+   display: flex;
+}
+
+.detail-image {
+   width: 30vw;
+   border-radius: 30px;
+   height: 70vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.details-info {
+   padding-left: 30px;
+   display: flex;
+   flex-direction: column;
+}
+
+.details-info h1 {
+   text-transform: capitalize;
+   font-size: 40px;
+   text-shadow: 1px 2px 2px gray;
+}
+
+.details-info h4 {
+   position: relative;
+   top: -40px;
+   color: rgb(70, 70, 70);
+   text-transform: capitalize;
+   font-size: 20px;
+}
+
+.details-info p {
+   text-transform: capitalize;
+   font-size: 20px;
+   position: relative;
+   top: -40px;
+   text-shadow: 1px 2px 2px rgba(128, 128, 128, 0.575);
+}
+
+.labels {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+.labels p {
+   padding: 10px;
+   margin: 10px;
+   border-radius: 20px;
+   box-shadow: 1px 1px 2px 2px rgba(126, 126, 155, 0.486);
+   background-color: lavender;
+}
+
+.commentsect {
+   position: relative;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.commentinput {
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   border-radius: 20px;
+   background-color: rgba(179, 176, 176, 0.377);
+}
+
+.commentinput input {
+   background-color: transparent;
+}
+
+.btn {
+   border-radius: 20px;
+   padding: 5px 15px;
+   cursor: pointer;
+   background-color: lavender;
+   width: fit-content;
+}
+
+.h4 {
+   margin-bottom: -30px;
+}
+
+.commentdisplay {
+   height: 200px;
+   overflow-y: scroll;
+   display: flex;
+   padding: 10px;
+   flex-direction: column;
+   justify-content: flex-start;
+   /* align-items: center; */
+}
+
+.commentdisplay::-webkit-scrollbar {
+   display: none;
+}
+
+.comment {
+   width: 70%;
+   border-radius: 20px;
+   padding: 10px;
+   display: flex;
+   margin: 10px;
+   flex-direction: column;
+   background-color: rgba(219, 219, 219, 0.336);
+}
+
+.user {
+   font-size: 15px;
+   color: gray;
+}
+
+.comments {
+   width: fit-content;
+   font-size: 15px;
+   padding: 5px 20px;
+   margin: 5px;
+   border-radius: 10px;
+   box-shadow: 1px 1px 2px 2px rgb(238, 184, 184);
+   background-color: lavenderblush;
+}
